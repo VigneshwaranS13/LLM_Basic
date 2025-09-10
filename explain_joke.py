@@ -13,8 +13,8 @@ client = OpenAI(
 )
 
 
-# Set your OpenAI API key
-openai.api_key = 'your-api-key-here'
+# # Set your OpenAI API key
+# openai.api_key = 'your-api-key-here'
 
 def explain_joke(joke):
     try:
